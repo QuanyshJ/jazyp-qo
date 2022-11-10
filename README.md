@@ -1,1 +1,1 @@
-# project_dastan
+# project_kuanysh
