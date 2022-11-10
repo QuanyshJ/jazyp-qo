@@ -72,6 +72,7 @@ app.post('/signUp', async (req, res) => {
 app.post('/signIn', async (req, res) => {
     const email=req.body.email;
     const password=req.body.password;
+    console.log(req.body)
     var id;
     auth.signInWithEmailAndPassword(fauth,email, password)
     .then(async(userCredential) => {
